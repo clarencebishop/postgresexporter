@@ -7,7 +7,7 @@ import (
 	"log"
 	"time"
 
-	"github.com/destrex271/postgresexporter/internal/traceutil"
+	"github.com/clarencebishop/postgresexporter/internal/traceutil"
 	"go.opentelemetry.io/collector/component"
 	"go.opentelemetry.io/collector/pdata/ptrace"
 	conventions "go.opentelemetry.io/collector/semconv/v1.27.0"

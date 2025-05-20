@@ -3,8 +3,8 @@ package postgresexporter
 import (
 	"database/sql"
 
-	"github.com/destrex271/postgresexporter/internal"
-	"github.com/destrex271/postgresexporter/internal/db"
+	"github.com/clarencebishop/postgresexporter/internal"
+	"github.com/clarencebishop/postgresexporter/internal/db"
 	"go.opentelemetry.io/collector/exporter/exporterhelper"
 )
 

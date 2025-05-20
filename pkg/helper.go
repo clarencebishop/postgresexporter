@@ -4,11 +4,11 @@ import (
 	"context"
 	"database/sql"
 
-	"github.com/destrex271/postgresexporter/internal"
+	"github.com/clarencebishop/postgresexporter/internal"
 )
 
 const (
-	AttributesMappingTableName = internal.AttributesMappingTableName
+	AttributesMappingTableName          = internal.AttributesMappingTableName
 	AttributesMappingAttributeFieldName = internal.AttributesMappingAttributeFieldName
 )
 

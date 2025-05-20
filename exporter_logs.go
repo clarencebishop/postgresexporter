@@ -8,7 +8,7 @@ import (
 	"log"
 	"time"
 
-	"github.com/destrex271/postgresexporter/internal/traceutil"
+	"github.com/clarencebishop/postgresexporter/internal/traceutil"
 	"go.opentelemetry.io/collector/component"
 	"go.opentelemetry.io/collector/pdata/pcommon"
 	"go.opentelemetry.io/collector/pdata/plog"

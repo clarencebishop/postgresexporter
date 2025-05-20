@@ -11,8 +11,8 @@ import (
 	"go.opentelemetry.io/collector/confmap/xconfmap"
 	"go.opentelemetry.io/collector/exporter/exporterhelper"
 
-	"github.com/destrex271/postgresexporter/internal"
-	"github.com/destrex271/postgresexporter/internal/metadata"
+	"github.com/clarencebishop/postgresexporter/internal"
+	"github.com/clarencebishop/postgresexporter/internal/metadata"
 )
 
 func TestLoadConfig(t *testing.T) {
@@ -26,7 +26,7 @@ func TestLoadConfig(t *testing.T) {
 		expected component.Config
 	}{
 		{
-			id: component.NewIDWithName(metadata.Type, "default"),
+			id:       component.NewIDWithName(metadata.Type, "default"),
 			expected: createDefaultConfig(),
 		},
 		{

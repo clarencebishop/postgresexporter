@@ -9,7 +9,7 @@ import (
 	"slices"
 	"strings"
 
-	"github.com/destrex271/postgresexporter/internal/db"
+	"github.com/clarencebishop/postgresexporter/internal/db"
 	"go.opentelemetry.io/collector/pdata/pcommon"
 	"go.opentelemetry.io/collector/pdata/pmetric"
 )
